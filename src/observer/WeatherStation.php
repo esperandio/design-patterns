@@ -7,6 +7,10 @@ namespace Observer;
 class WeatherStation implements IObservable
 {
     private WeatherData $objWeatherData;
+
+    /**
+     * @var IObserver[] $arrObservers
+     */
     private array $arrObservers = [];
 
     public function __construct()
