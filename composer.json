@@ -5,7 +5,8 @@
             "Strategy\\": "src/strategy",
             "Observer\\": "src/observer",
             "Decorator\\": "src/decorator",
-            "FactoryMethod\\": "src/factory-method"
+            "FactoryMethod\\": "src/factory-method",
+            "Command\\": "src/command"
         }
     },
     "require-dev": {
