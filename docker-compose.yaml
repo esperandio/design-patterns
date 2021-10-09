@@ -6,9 +6,9 @@ services:
         command: php -S 0.0.0.0:8080 -t .
         ports:
             - 8080:8080
-        working_dir: /design-pattens
+        working_dir: /design-patterns
         volumes:
-            - ./:/design-pattens
+            - ./:/design-patterns
         container_name: php
     composer:
         image: composer
